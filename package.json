@@ -15,9 +15,18 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint --ext .js,.astro src",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "astro": "^2.5.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-plugin-astro": "^0.27.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-astro": "^0.9.1"
   }
 }

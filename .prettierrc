@@ -1,0 +1,13 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 80,
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "astroSortOrder": "markup | styles",
+  "astroAllowShorthand": true
+}
