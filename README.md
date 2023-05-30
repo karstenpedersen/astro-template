@@ -4,6 +4,7 @@
 
 - [Astro](https://astro.build/)
 - [TypeScript](https://github.com/microsoft/TypeScript)
+- [TailwindCSS](https://tailwindcss.com/)
 
 ### Development Tools
 
