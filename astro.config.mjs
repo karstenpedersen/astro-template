@@ -1,11 +1,16 @@
-import { defineConfig } from 'astro/config';
 import image from '@astrojs/image';
-
-import tailwind from "@astrojs/tailwind";
+import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [image({
-    serviceEntryPoint: '@astrojs/image/sharp'
-  }), tailwind()]
+  site: 'https://cool.com',
+  integrations: [
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp',
+    }),
+    tailwind(),
+    sitemap(),
+  ],
 });
